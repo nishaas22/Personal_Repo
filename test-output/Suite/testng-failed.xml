@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browserType" value="chrome"/>
+  <test name="dockabl">
+    <classes>
+      <class name="com.koch.koch_assignment.AirlineFlightsDetailsScenarios"/>
+    </classes>
+  </test> <!-- dockabl -->
+  <test name="dockabl(failed)">
+    <classes>
+      <class name="com.koch.koch_assignment.AirlineFlightsDetailsScenarios">
+        <methods>
+          <include name="validatePage"/>
+          <include name="setup"/>
+          <include name="launchSite"/>
+        </methods>
+      </class> <!-- com.koch.koch_assignment.AirlineFlightsDetailsScenarios -->
+    </classes>
+  </test> <!-- dockabl(failed) -->
+</suite> <!-- Failed suite [Suite] -->

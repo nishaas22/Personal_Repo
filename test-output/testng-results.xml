@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55935" started-at="2020-09-14T13:05:52Z" finished-at="2020-09-14T13:06:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55935" started-at="2020-09-14T13:05:52Z" finished-at="2020-09-14T13:06:48Z">
+      <class name="com.koch.koch_assignment.AirlineFlightsDetailsScenarios">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.koch.koch_assignment.AirlineFlightsDetailsScenarios@29ee9faa]" name="setup" is-config="true" duration-ms="7947" started-at="2020-09-14T18:35:44Z" finished-at="2020-09-14T18:35:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchSite()[pri:0, instance:com.koch.koch_assignment.AirlineFlightsDetailsScenarios@29ee9faa]" name="launchSite" is-config="true" duration-ms="1950" started-at="2020-09-14T18:35:52Z" finished-at="2020-09-14T18:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method status="PASS" signature="validatePage()[pri:1, instance:com.koch.koch_assignment.AirlineFlightsDetailsScenarios@29ee9faa]" name="validatePage" duration-ms="150" started-at="2020-09-14T18:35:54Z" finished-at="2020-09-14T18:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePage -->
+        <test-method status="PASS" signature="validatesearchResult()[pri:2, instance:com.koch.koch_assignment.AirlineFlightsDetailsScenarios@29ee9faa]" name="validatesearchResult" duration-ms="46845" started-at="2020-09-14T18:35:55Z" finished-at="2020-09-14T18:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesearchResult -->
+        <test-method status="PASS" signature="validateAirlineDetails()[pri:3, instance:com.koch.koch_assignment.AirlineFlightsDetailsScenarios@29ee9faa]" name="validateAirlineDetails" duration-ms="3119" started-at="2020-09-14T18:36:41Z" finished-at="2020-09-14T18:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAirlineDetails -->
+        <test-method status="PASS" signature="validateFilterOptions()[pri:4, instance:com.koch.koch_assignment.AirlineFlightsDetailsScenarios@29ee9faa]" name="validateFilterOptions" duration-ms="3733" started-at="2020-09-14T18:36:44Z" finished-at="2020-09-14T18:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFilterOptions -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.koch.koch_assignment.AirlineFlightsDetailsScenarios@29ee9faa]" name="quit" is-config="true" duration-ms="123" started-at="2020-09-14T18:36:48Z" description="Close all the browser windows" finished-at="2020-09-14T18:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.koch.koch_assignment.AirlineFlightsDetailsScenarios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
